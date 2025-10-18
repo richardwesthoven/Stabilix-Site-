@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stabilix ERP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="app-header">
+        <div class="brand">
+          <span class="brand-mark">S</span>
+          <div>
+            <h1>Stabilix ERP</h1>
+            <p class="subtitle">Integrated operations control center</p>
+          </div>
+        </div>
+        <div class="header-meta">
+          <div class="meta-block">
+            <span class="meta-label">Today</span>
+            <span class="meta-value" id="date-indicator">--</span>
+          </div>
+          <div class="meta-block">
+            <span class="meta-label">Status</span>
+            <span class="badge badge-success">Online</span>
+          </div>
+        </div>
+      </header>
+
+      <nav class="app-nav" aria-label="ERP modules">
+        <button class="nav-button active" data-view="dashboard">Dashboard</button>
+        <button class="nav-button" data-view="sales">Sales</button>
+        <button class="nav-button" data-view="inventory">Inventory</button>
+        <button class="nav-button" data-view="hr">Workforce</button>
+        <button class="nav-button" data-view="reports">Reports</button>
+      </nav>
+
+      <main id="content" class="app-content" tabindex="-1" aria-live="polite"></main>
+
+      <footer class="app-footer">
+        <p>© <span id="year"></span> Stabilix. Built for streamlined, data-driven operations.</p>
+      </footer>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>

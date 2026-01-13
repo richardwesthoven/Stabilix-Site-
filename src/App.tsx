@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import { ImageWithFallback } from './components/figma/ImageWithFallback';
-import productImage from 'figma:asset/0d108e7bc776ba543ff09e4ad43f249b95d59e4b.png';
-import productImage2 from 'figma:asset/b3cc17721e89a87637d3b3cf53c9711ce1cc9549.png';
+import productImage from './assets/aerframe-hero.svg';
+import productImage2 from './assets/aerframe-platform.svg';
 
 export default function AerFrameLanding() {
   const BRAND = "#57A4DA";

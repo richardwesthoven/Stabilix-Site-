@@ -1,0 +1,13 @@
+<svg width="900" height="600" viewBox="0 0 900 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="600" rx="48" fill="#F8FBFF"/>
+  <path d="M120 420C210 280 340 210 470 200C610 188 720 240 780 320" stroke="#57A4DA" stroke-width="18" stroke-linecap="round"/>
+  <path d="M140 440C260 330 410 280 560 290C680 298 760 340 810 390" stroke="#8CC5EA" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="260" cy="240" r="72" fill="#57A4DA" fill-opacity="0.18"/>
+  <circle cx="640" cy="200" r="52" fill="#57A4DA" fill-opacity="0.2"/>
+  <rect x="190" y="280" width="420" height="160" rx="32" fill="#FFFFFF" stroke="#D7E9F6" stroke-width="2"/>
+  <rect x="230" y="320" width="340" height="16" rx="8" fill="#57A4DA" fill-opacity="0.35"/>
+  <rect x="230" y="352" width="280" height="12" rx="6" fill="#57A4DA" fill-opacity="0.25"/>
+  <rect x="230" y="376" width="300" height="12" rx="6" fill="#57A4DA" fill-opacity="0.25"/>
+  <text x="230" y="260" font-family="Arial, sans-serif" font-size="22" fill="#0F172A" font-weight="700">AerFrame Immobilization</text>
+  <text x="230" y="412" font-family="Arial, sans-serif" font-size="16" fill="#4B5563">Near-invisible SBRT positioning platform</text>
+</svg>
